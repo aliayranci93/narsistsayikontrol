@@ -9,9 +9,9 @@ public class Main {
 			System.out.print("Sayı giriniz : ");
 			int num = scanner.nextInt();
 			if (kontrol(num))
-			    System.out.println(num+" Narsist Bir Sayı");
+			    System.out.println(num+" Narsistik Bir Sayı");
 			else
-			    System.out.println(num+" Narsist Bir Sayı Değil");
+			    System.out.println(num+" Narsistik Bir Sayı Değil");
 		}
     }
 
@@ -41,7 +41,7 @@ public class Main {
         }
 
         return (n == toplam);
-        //tüm basamakları basamak sayısı kadar üssünü alıp topladıktan sonra girilen sayı ile hesaplanan sayı birbirine eşitse narsist bir sayıdır.
+        //tüm basamakları basamak sayısı kadar üssünü alıp topladıktan sonra girilen sayı ile hesaplanan sayı birbirine eşitse Narsistik bir sayıdır.
 
     }
 }
